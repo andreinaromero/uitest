@@ -1,0 +1,20 @@
+apply plugin: 'java'
+
+repositories {
+    // Use jcenter for resolving your dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    jcenter()
+}
+
+dependencies {
+    
+    dependencies {
+	    testCompile 'org.seleniumhq.selenium:selenium-java:3.3.1'
+	    testCompile 'junit:junit:4.12'
+	}
+	
+	test {
+   	   testLogging.showStandardStreams = true
+	}
+}
+
