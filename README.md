@@ -4,7 +4,7 @@ Automated Test to Add a Project in http://slashie.net/pp/
 
 I have used these tools:
 Gradle 3.4.1
-Jdk 1.8
+JDK 1.8
 
 Run the test using: gradle clean test
 
